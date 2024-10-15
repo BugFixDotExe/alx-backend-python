@@ -6,9 +6,9 @@ takes no arguments.
 '''
 import asyncio
 import random
+from typing import AsyncGenerator
 
-
-async def async_generator():
+async def async_generator() -> AsyncGenerator[float, None]:
     '''
         async_generator: a function that takes no args
         Args: None
